@@ -1,7 +1,8 @@
+node 'puppet.example.com' {
+}
+
 node 'client.example.com' {
-	include sudo
 }
 
 node 'ubuntu.example.com' {
-	include sudo
 }
